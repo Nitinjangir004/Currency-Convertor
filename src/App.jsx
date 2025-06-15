@@ -23,13 +23,13 @@ const convert =()=>{
  const options = Object.keys(CurrencyInfo);
  return (
         <div
-            className="w-full h-screen flex flex-wrap items-center bg-cover bg-no-repeat absolute"
+            className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
             style={{
                 backgroundImage:`url('${Image1}')`
             }}
         >
             <div className="w-full ">
-                <div className=" relative left-100 w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
+                <div className="  w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
                     <form
                         onSubmit={(e) => {
                             e.preventDefault();
